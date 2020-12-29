@@ -1,11 +1,9 @@
-# final_project-ChiZengHuang900629
-final_project-ChiZengHuang900629 created by GitHub Classroom
-porject17.
-==========
+final_project_17
+================
+input: n % dimension為n的矩陣 
 
 # general n * n matrix
 
-input: n % dimension為n的矩陣  
 output:   
 >1.若n為奇數，則以(n/2 + 0.5, n/2 + 0.5)為中心向外順時針增加數字，形成n * n的矩陣  
 >2.若n為偶數，則以(n/2, n/2)為中心向外順時針增加數字，形成n * n的矩陣  
@@ -19,7 +17,6 @@ output:
 
 # sumOfDiagonal_Method1
 
-input: n % dimension為n的矩陣  
 output: 對角線及反對角線總和  
 
 ## 作法:
@@ -27,7 +24,6 @@ output: 對角線及反對角線總和
 
 # sumOfDiagonal_Method2
 
-input: n % dimension為n的矩陣  
 output: 對角線及反對角線總和  
 
 ## 作法:
@@ -43,7 +39,7 @@ output: 對角線及反對角線總和
 
 # moveElements:
 
-output: 由1為起點順時針向外移對，ex: 1 -> 2 -> 3 -> ... -> n * n； 跑 n * n 以後迴到初始狀態  
+output: 由1為起點順時針向外移對，ex: 1 -> 2 -> 3 -> ... -> n * n； 跑10次以後迴到初始狀態  
 
 ## 作法:
 1.將所有矩陣元素加1，若數字大於n * n, 則變為1  
