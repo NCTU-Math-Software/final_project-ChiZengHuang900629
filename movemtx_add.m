@@ -117,7 +117,7 @@ sum2
 
 %% 移動
 
-for tt = 1:n^2
+for tt = 1:10
     
     mid = 0;
     count1 = 0;
@@ -214,7 +214,7 @@ for tt = 1:n^2
     end
     
     
-    %% image
+%% image
 mac = ma;
 mac(:, :, 1) = 1;
 mac(:, :, 2) = 1;
